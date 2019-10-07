@@ -70,8 +70,8 @@ def getItem():
     html = urlopen("https://www.supremenewyork.com/shop/all/jackets") # Insert your URL to extract e.g. jackets, shoes
     bs = BeautifulSoup(html.read(), 'html.parser')
 
-    item = 'Crinkle Anorak'     #add item name here
-    color = 'Navy'              #add item color here
+    item = 'Item name here'     
+    color = 'Item colour here'              
     
     item_lst = []
     color_lst = []
